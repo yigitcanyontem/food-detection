@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 27
+names: ['bauyrsak', 'beet_salad', 'black_tea', 'broccoli', 'bukteme', 'caesar_salad', 'cheese_sticks', 'chicken_in_plum', 'compote', 'doner', 'fish_soup', 'koktal', 'lemonade', 'lentiil_soup', 'mashed_potato', 'mayonnaise', 'meatball', 'pirojki', 'rice', 'rice_porridge', 'samsa', 'sandwich', 'sausage_in_dough', 'shubat', 'tiramisu', 'tom_yam', 'water']
+
+roboflow:
+  workspace: caf-xvmuf
+  project: 17.05
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/caf-xvmuf/17.05/dataset/1

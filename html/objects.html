@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object List</title>
+    <style>
+        .object-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .object-card {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .object-image {
+            max-width: 100%;
+            height: auto;
+            width: 20vw;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Object List</h1>
+<div id="object-container" class="object-container"></div>
+
+<script>
+    // Fetch the JSON file using the fetch API
+    fetch('./assets/objects.json')
+        .then(response => response.json())  // Parse JSON
+        .then(objectsjson => {
+            const objectContainer = document.getElementById('object-container');
+
+            // Dynamically generate the object cards
+            objectsjson.forEach((object, index) => {
+                const objectCard = document.createElement('div');
+                objectCard.classList.add('object-card');
+
+                const objectImage = document.createElement('img');
+                objectImage.src = `data:image/jpeg;base64,${object.img}`; // Set base64 image
+                objectImage.alt = object.label;
+                objectImage.classList.add('object-image');
+
+                const objectLabel = document.createElement('p');
+                objectLabel.textContent = object.label;
+
+                objectCard.appendChild(objectImage);
+                objectCard.appendChild(objectLabel);
+                objectContainer.appendChild(objectCard);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 39
+names: ['Ayran', 'Baklava', 'Burger', 'Cay', 'CheeseCake', 'Cig_Kofte', 'Dondurma', 'Ekemk_Arasi_Et_Tantuni', 'Ekmek_Arasi_Tavuk_Tantuni', 'Et_Doner', 'Et_Iskender', 'Et_Sote', 'Ezo_Gelin_Corbasi', 'Icli_Kofte', 'Izgara_Kofte', 'Karisik_Izgara', 'Kasarli_Pide', 'Kebap', 'Kelle_Paca_Corbasi', 'Kir_Pidesi', 'Kiymali_Pide', 'Kunefe', 'Kusbasli_Pide', 'Lahmacun', 'Makarna', 'Mercimek_Corbasi', 'Patates_Kizartmasi', 'Pizza', 'Salata', 'Sogan_Halkasi', 'Su_Boregi', 'Suffle', 'Sutlac', 'Tavuk_Doner', 'Tavuk_Iskender', 'Tavuk_Kanat', 'Tavuk_Sote', 'Tiramisu', 'Waffle']
+
+roboflow:
+  workspace: yemektanima
+  project: yemek_tanima-mxo08
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yemektanima/yemek_tanima-mxo08/dataset/2

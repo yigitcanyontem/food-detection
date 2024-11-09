@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 43
+names: ['apple', 'banana', 'beef', 'beetroot', 'bellpepper', 'broccoli', 'cabbage', 'carrot', 'cauliflower', 'cheese', 'chicken', 'chilli_pepper', 'corn', 'cucumber', 'egg', 'eggplant', 'fish', 'garlic', 'ginger', 'grapes', 'kiwi', 'leek', 'lemon', 'lettuce', 'lime', 'mango', 'onion', 'orange', 'pasta', 'peach', 'pear', 'peas', 'pineapple', 'pomegranate', 'pork', 'potato', 'rice', 'spinach', 'strawberry', 'sweetpotato', 'tomato', 'turnip', 'watermelon']
+
+roboflow:
+  workspace: pmba-mbl2c
+  project: ingridient-identification-v2
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pmba-mbl2c/ingridient-identification-v2/dataset/4

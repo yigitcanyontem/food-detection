@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 24
+names: ['Adana Kebabi', 'Ayran', 'Baklava', 'Bulgur Pilavi', 'Cacik', 'Cay', 'Coban Salata', 'Et Sote', 'Iskender', 'Kazandibi', 'KemalPasa', 'Kofte', 'Mercimek Corbasi', 'Patates Kizartmasi', 'Pirinc Pilavi', 'Salatalik Tursusu', 'Servis Doner', 'Servis Tavuk Doner', 'SuluEtli Fasulye', 'SuluFasulye', 'Tarhana Corbasi', 'Tavuk Sote', 'Turk Kahvesi', 'YesilMercimek Corbasi']
+
+roboflow:
+  workspace: poloplus
+  project: food-detection-ggdes
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/poloplus/food-detection-ggdes/dataset/1

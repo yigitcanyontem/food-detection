@@ -1,0 +1,324 @@
+names:
+- airan-katyk
+- almond
+- apple
+- artichoke
+- arugula
+- asparagus
+- avocado
+- bacon
+- banana
+- beans
+- beet
+- bell pepper
+- black olives
+- blackberry
+- blueberry
+- boiled chicken
+- bread
+- broccoli
+- buckwheat
+- cabbage
+- cakes
+- carrot
+- cashew
+- casserole with meat and vegetables
+- cauliflower
+- celery
+- cereal based cooked food
+- cheese
+- chickpeas
+- chips
+- cooked eggplant
+- cooked food based on meat
+- cooked food meat with vegetables
+- cooked zucchini
+- cookies
+- corn
+- crepe
+- cucumber
+- cutlet
+- desserts
+- egg product
+- eggplant
+- fish
+- fried chicken
+- fried eggs
+- fried fish
+- fried meat
+- fruits
+- granola
+- grapes
+- green beans
+- herbs
+- hummus
+- ice-cream
+- irimshik
+- juice
+- kiwi
+- lavash
+- legumes
+- lemon
+- mandarin
+- mango
+- mashed potato
+- meat product
+- melon
+- mixed berries
+- mixed nuts
+- mushrooms
+- onion
+- orange
+- pasta
+- pastry
+- peanut
+- pear
+- peas
+- pecan
+- pickled cabbage
+- pickled squash
+- pie
+- pineapple
+- pizza
+- plov
+- porridge
+- potatoes
+- pumpkin
+- radish
+- raspberry
+- rice
+- salad fresh
+- salad leaves
+- salad with fried meat veggie
+- salad with sauce
+- sandwich
+- sausages
+- seafood
+- smetana
+- snacks
+- snacks bread
+- souces
+- soup-plain
+- soy product
+- spinach
+- strawberry
+- suzbe
+- sweet potatoes
+- tomato
+- tomato souce
+- tushpara-wo-soup
+- vegetable based cooked food
+- waffles
+- walnut
+- watermelon
+- zucchini
+- Adana Kebabi
+- Ayran
+- Baklava
+- Bulgur Pilavi
+- Cacik
+- Cay
+- Coban Salata
+- Et Sote
+- Iskender
+- Kazandibi
+- KemalPasa
+- Kofte
+- Mercimek Corbasi
+- Patates Kizartmasi
+- Pirinc Pilavi
+- Salatalik Tursusu
+- Servis Doner
+- Servis Tavuk Doner
+- SuluEtli Fasulye
+- SuluFasulye
+- Tarhana Corbasi
+- Tavuk Sote
+- Turk Kahvesi
+- YesilMercimek Corbasi
+- bauyrsak
+- beet_salad
+- black_tea
+- bukteme
+- caesar_salad
+- cheese_sticks
+- chicken_in_plum
+- compote
+- doner
+- fish_soup
+- koktal
+- lemonade
+- lentiil_soup
+- mashed_potato
+- mayonnaise
+- meatball
+- pirojki
+- rice_porridge
+- samsa
+- sausage_in_dough
+- shubat
+- tiramisu
+- tom_yam
+- water
+- brus capusta
+- cayliflower
+- fasol
+- garlic
+- hot pepper
+- potato
+- rediska
+- redka
+- salad
+- squash-patisson
+- vegetable marrow
+- bean
+- beef
+- beer
+- berry
+- boil-cheese
+- breadcrumbs
+- butter
+- canned-food
+- caviar
+- cherry
+- chicken
+- chocolate
+- coconut
+- coffee
+- cognac
+- condensed-milk
+- cookie
+- cottage-cheese
+- crab
+- cream
+- dough
+- dried-fruits
+- duck
+- egg
+- fennel
+- fig
+- flake
+- flour
+- ginger
+- grape
+- grapefruit
+- ham
+- honey
+- jam
+- ketchup
+- lentil
+- lettuce
+- mayo
+- milk
+- millet
+- mushroom
+- mustard
+- noodle
+- nut
+- nutella
+- oil
+- olives
+- oysters
+- pate
+- pawpaw
+- pea
+- peach
+- pearl
+- pepper
+- pickles
+- pomegranate
+- pork
+- raddish
+- rib
+- russian-green
+- ryazhenka
+- salami
+- salted-fish
+- sausage
+- semolina
+- shrimp
+- sour cream
+- spring onion
+- squash
+- squid
+- tartlets
+- tofu
+- tortilla
+- vasabi
+- yogurt-occluded
+- zuccini
+- baked beans
+- boiled egg
+- bun
+- croissant
+- fried egg
+- hashbrown
+- pasta soup
+- rye bread
+- scrambled egg
+- shrimp dumpling
+- shumai
+- soup dumpling
+- spam
+- steamed beef ball
+- steamed rice roll
+- teochew dumpling
+- toast
+- white bread
+- Burger
+- CheeseCake
+- Cig_Kofte
+- Dondurma
+- Ekemk_Arasi_Et_Tantuni
+- Ekmek_Arasi_Tavuk_Tantuni
+- Et_Doner
+- Et_Iskender
+- Et_Sote
+- Ezo_Gelin_Corbasi
+- Icli_Kofte
+- Izgara_Kofte
+- Karisik_Izgara
+- Kasarli_Pide
+- Kebap
+- Kelle_Paca_Corbasi
+- Kir_Pidesi
+- Kiymali_Pide
+- Kunefe
+- Kusbasli_Pide
+- Lahmacun
+- Makarna
+- Mercimek_Corbasi
+- Patates_Kizartmasi
+- Pizza
+- Salata
+- Sogan_Halkasi
+- Su_Boregi
+- Suffle
+- Sutlac
+- Tavuk_Doner
+- Tavuk_Iskender
+- Tavuk_Kanat
+- Tavuk_Sote
+- Tiramisu
+- Waffle
+- beetroot
+- bellpepper
+- chilli_pepper
+- leek
+- lime
+- sweetpotato
+- turnip
+nc: 309
+test:
+- food_1\test
+- food_2\test
+train:
+- food_1\train
+- food_2\train
+- food_3\train
+- food_4\train
+- food_5\train
+- vegetables\train
+val:
+- food_1\valid
+- food_2\valid

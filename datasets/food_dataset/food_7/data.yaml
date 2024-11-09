@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: ['bacon', 'baked beans', 'boiled egg', 'bun', 'croissant', 'fried egg', 'ham', 'hashbrown', 'pasta', 'pasta soup', 'rye bread', 'sausage', 'scrambled egg', 'shrimp dumpling', 'shumai', 'soup dumpling', 'spam', 'steamed beef ball', 'steamed rice roll', 'teochew dumpling', 'toast', 'white bread']
+
+roboflow:
+  workspace: food-recog
+  project: food-group-1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/food-recog/food-group-1/dataset/1

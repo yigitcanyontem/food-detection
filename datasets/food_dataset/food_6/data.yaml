@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 113
+names: ['apple', 'asparagus', 'avocado', 'bacon', 'banana', 'bean', 'beef', 'beer', 'beet', 'berry', 'boil-cheese', 'bread', 'breadcrumbs', 'broccoli', 'buckwheat', 'butter', 'cabbage', 'canned-food', 'carrot', 'cauliflower', 'caviar', 'celery', 'cheese', 'cherry', 'chicken', 'chocolate', 'coconut', 'coffee', 'cognac', 'condensed-milk', 'cookie', 'corn', 'cottage-cheese', 'crab', 'cream', 'cucumber', 'dough', 'dried-fruits', 'duck', 'egg', 'eggplant', 'fennel', 'fig', 'fish', 'flake', 'flour', 'garlic', 'ginger', 'grape', 'grapefruit', 'ham', 'honey', 'jam', 'juice', 'ketchup', 'kiwi', 'lemon', 'lentil', 'lettuce', 'mango', 'mayo', 'meatball', 'melon', 'milk', 'millet', 'mushroom', 'mustard', 'noodle', 'nut', 'nutella', 'oil', 'olives', 'onion', 'orange', 'oysters', 'pate', 'pawpaw', 'pea', 'peach', 'pear', 'pearl', 'pepper', 'pickles', 'pineapple', 'pomegranate', 'pork', 'potato', 'pumpkin', 'raddish', 'rediska', 'rib', 'rice', 'russian-green', 'ryazhenka', 'salad', 'salami', 'salted-fish', 'sausage', 'semolina', 'shrimp', 'sour cream', 'spinach', 'spring onion', 'squash', 'squid', 'strawberry', 'tartlets', 'tofu', 'tomato', 'tortilla', 'vasabi', 'yogurt-occluded', 'zuccini']
+
+roboflow:
+  workspace: foods-project
+  project: foods-project-2
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/foods-project/foods-project-2/dataset/9
